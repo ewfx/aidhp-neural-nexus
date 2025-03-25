@@ -36,6 +36,8 @@ Briefly outline the technologies, frameworks, and tools used in development.
 Describe the major technical or non-technical challenges your team encountered.
 
 ## 🏃 How to Run
+0. Start the virtual environment
+venv\Scripts\activate
 1. Clone the repository  
    ```sh
    git clone https://github.com/your-repo.git

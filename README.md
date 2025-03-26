@@ -36,18 +36,15 @@ Briefly outline the technologies, frameworks, and tools used in development.
 Describe the major technical or non-technical challenges your team encountered.
 
 ## 🏃 How to Run
-1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+- Open terminal in the frontend folder where package.json is located.
+
+- Run npm install to install all dependencies.
+
+- Wait for the installation to complete.
+
+- Run npm run start to start the frontend.
+
+- The frontend should be accessible at http://localhost:3000.
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: React

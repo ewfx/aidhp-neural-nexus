@@ -31,23 +31,15 @@ In today's digital landscape, customers expect highly personalized experiences t
 The inspiration behind this project stems from the growing demand for hyper-personalized digital experiences across industries such as e-commerce, finance, and content platforms. With AI advancements, businesses can now move beyond static recommendation systems and deliver adaptive, sentiment-aware, and multi-modal personalization. A key challenge today is ensuring AI-driven recommendations remain accurate, ethical, and bias-free while enhancing user engagement. By tackling this challenge, this project aims to redefine AI-driven customer personalization and help businesses make data-driven strategic decisions.
 
 ## ⚙️ What It Does
-Developed a homepage with navigation to multiple pages, including a chatbot for financial queries.
-
-Implemented a financial query classifier, ensuring the chatbot only responds to financial-related queries.
-
-Designed a fallback response mechanism, where non-financial queries prompt the chatbot to request a relevant financial question.
-
-Enabled the chatbot to answer financial queries while also recommending relevant financial products to enhance customer engagement.
-
-Integrated collaborative filtering-based recommendations for transactions, analyzing user spending behavior and suggesting financial products based on similar user profiles.
-
-Built a recommendations page to display personalized financial suggestions based on credit card and debit card transactions.
-
-Developed a news recommendation system using a Get News API, providing users with financial news updates based on their interests and interactions.
-
-Simulated social media interactions to derive user preferences ethically, ensuring privacy while offering relevant financial news. First the tweet is analyzed and topics are extracted from that. Based on the topics, we will suggest news to the users to keep them updated on what's happening in the world. (Refer screenshot 1 for more info)
-
-Once the recommendations are show in the "Recommendations" page, we will have a button to recommend products based on our userID. Given the userID as input, we will it will give more recommendations using collaborative filtering approach. (Refer screenshot 2 for more info)
+- Developed a homepage with navigation to multiple pages, including a chatbot for financial queries.
+- Implemented a financial query classifier, ensuring the chatbot only responds to financial-related queries.
+- Designed a fallback response mechanism, where non-financial queries prompt the chatbot to request a relevant financial question.
+- Enabled the chatbot to answer financial queries while also recommending relevant financial products to enhance customer engagement.
+- Integrated collaborative filtering-based recommendations for transactions, analyzing user spending behavior and suggesting financial products based on similar user profiles.
+- Built a recommendations page to display personalized financial suggestions based on credit card and debit card transactions.
+- Developed a news recommendation system using a Get News API, providing users with financial news updates based on their interests and interactions.
+- Simulated social media interactions to derive user preferences ethically, ensuring privacy while offering relevant financial news. First the tweet is analyzed and topics are extracted from that. Based on the topics, we will suggest news to the users to keep them updated on what's happening in the world. (Refer screenshot 1 for more info)
+- Once the recommendations are show in the "Recommendations" page, we will have a button to recommend products based on our userID. Given the userID as input, we will it will give more recommendations using collaborative filtering approach. (Refer screenshot 2 for more info)
 
 
 ## 🛠️ How We Built It

@@ -43,7 +43,9 @@ Built a recommendations page to display personalized financial suggestions based
 
 Developed a news recommendation system using a Get News API, providing users with financial news updates based on their interests and interactions.
 
-Simulated social media interactions to derive user preferences ethically, ensuring privacy while offering relevant financial news.
+Simulated social media interactions to derive user preferences ethically, ensuring privacy while offering relevant financial news. First the tweet is analyzed and topics are extracted from that. Based on the topics, we will suggest news to the users to keep them updated on what's happening in the world. 
+
+
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.

@@ -17,7 +17,7 @@
 In today's digital landscape, customers expect highly personalized experiences tailored to their unique preferences. Businesses must leverage AI-driven solutions to analyze vast amounts of customer data, including profiles, social media activity, purchase history, sentiment analysis, and demographics, to deliver hyper-personalized recommendations. This project presents a Generative AI-powered Hyper-Personalization System that enhances customer engagement by providing personalized product, service, and content recommendations using various methods. By integrating advanced GenAI models, the system dynamically adapts to user preferences in real time, helping businesses optimize customer interactions and drive retention.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
+🔗 [Live Demo](#) - https://drive.google.com/file/d/1Hs9X7ctPXEvjgI7SuT40enpDua_U0Bw6/view?usp=sharing  
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 

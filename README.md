@@ -22,10 +22,10 @@ In today's digital landscape, customers expect highly personalized experiences t
 🖼️ Screenshots:
 
 ![Screenshot 1](link-to-image)
-(1) https://drive.google.com/file/d/17meHu50ELcNa38DE3pXWisbs-zl72eAx/view?usp=sharing
-- Based on the user's query, relevant news articles are fetched and provided to keep the user updated
-(2) https://drive.google.com/file/d/1A8dNp6gFPnNfMvJoLUJKlrWlu3kVy2uo/view?usp=drive_link
-- Collaborative filtering
+- https://drive.google.com/file/d/17meHu50ELcNa38DE3pXWisbs-zl72eAx/view?usp=sharing
+  - Based on the user's query, relevant news articles are fetched and provided to keep the user updated
+- https://drive.google.com/file/d/1A8dNp6gFPnNfMvJoLUJKlrWlu3kVy2uo/view?usp=drive_link
+  - Collaborative filtering
   
 ## 💡 Inspiration
 The inspiration behind this project stems from the growing demand for hyper-personalized digital experiences across industries such as e-commerce, finance, and content platforms. With AI advancements, businesses can now move beyond static recommendation systems and deliver adaptive, sentiment-aware, and multi-modal personalization. A key challenge today is ensuring AI-driven recommendations remain accurate, ethical, and bias-free while enhancing user engagement. By tackling this challenge, this project aims to redefine AI-driven customer personalization and help businesses make data-driven strategic decisions.

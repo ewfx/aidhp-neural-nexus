@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+In today's digital landscape, customers expect highly personalized experiences tailored to their unique preferences. Businesses must leverage AI-driven solutions to analyze vast amounts of customer data, including profiles, social media activity, purchase history, sentiment analysis, and demographics, to deliver hyper-personalized recommendations. This project presents a Generative AI-powered Hyper-Personalization System that enhances customer engagement by providing personalized product, service, and content recommendations using various methods. By integrating advanced GenAI models, the system dynamically adapts to user preferences in real time, helping businesses optimize customer interactions and drive retention.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,7 +24,7 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+The inspiration behind this project stems from the growing demand for hyper-personalized digital experiences across industries such as e-commerce, finance, and content platforms. With AI advancements, businesses can now move beyond static recommendation systems and deliver adaptive, sentiment-aware, and multi-modal personalization. A key challenge today is ensuring AI-driven recommendations remain accurate, ethical, and bias-free while enhancing user engagement. By tackling this challenge, this project aims to redefine AI-driven customer personalization and help businesses make data-driven strategic decisions.
 
 ## ⚙️ What It Does
 Explain the key features and functionalities of your project.
@@ -50,11 +50,13 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
-
-## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- 🔹 Frontend: React
+- 🔹 Backend: Flask
+- 🔹 Database: -
+- 🔹 Other: Hugging Face (Deepseek, Mistral APIs), csv files
+  
+## 👥 Team (in alphabetical order)
+- **Anshu**
+- **Sarvesh E**
+- **Suren**
+- **Vedant**

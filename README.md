@@ -59,6 +59,7 @@ Describe the major technical or non-technical challenges your team encountered.
 - Run npm run start to start the frontend.
 
 - The frontend should be accessible at http://localhost:3000.
+- For backend, we have go to the 'service' folder and execute: python app.py
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: React

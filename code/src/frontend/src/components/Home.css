@@ -1,0 +1,109 @@
+:root {
+    --primary-red: #d10000;
+    --secondary-red: #ff4d4d;
+    --light-red: #ff9999;
+    --dark-red: #990000;
+    --white: #ffffff;
+    --light-gray: #f8f9fa;
+}
+
+.home-container {
+    background-color: var(--white);
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 4rem 0;
+    background: linear-gradient(135deg, var(--white) 0%, var(--light-gray) 100%);
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.hero-title {
+    font-size: 3rem; /* Increase font size for the main title */
+    font-weight: 700;
+    color: var(--dark-red);
+    margin-bottom: 1rem;
+}
+
+.title-highlight {
+    color: var(--primary-red);
+    text-shadow: 0 2px 4px rgba(209, 0, 0, 0.2);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: var(--secondary-red);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.feature-card {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid var(--primary-red);
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(209, 0, 0, 0.1);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-red);
+}
+
+.feature-card h3 {
+    font-size: 1.8rem; /* Increase font size for card titles */
+    color: var(--dark-red);
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.feature-text {
+    font-size: 1.2rem; /* Increase font size for card text */
+    color: #555;
+    line-height: 1.6;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 1rem; /* Add spacing between rows and columns */
+    text-align: center;
+}
+
+.team-grid p {
+    font-size: 1.3rem; /* Font size for team member names */
+    color: #555;
+    margin: 0;
+}
+
+.video-link {
+    font-size: 1.2rem; /* Increase font size for the demo video link */
+    color: var(--primary-red);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.video-link:hover {
+    color: var(--dark-red);
+    text-decoration: underline;
+}

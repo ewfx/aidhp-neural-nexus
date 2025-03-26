@@ -1,0 +1,227 @@
+:root {
+    --primary-red: #d10000;
+    --secondary-red: #ff4d4d;
+    --light-red: #ff9999;
+    --dark-red: #990000;
+    --white: #ffffff;
+    --light-gray: #f8f9fa;
+    --medium-gray: #e9ecef;
+    --dark-gray: #343a40;
+    --text-color: #333333;
+}
+
+.transactions-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.transactions-header {
+    color: var(--primary-red);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-form-container {
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-section {
+    margin-bottom: 2rem;
+}
+
+.form-section-title {
+    color: var(--primary-red);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--light-red);
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--dark-gray);
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--medium-gray);
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--primary-red);
+    box-shadow: 0 0 0 2px rgba(209, 0, 0, 0.2);
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-row .form-group {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.submit-btn {
+    background-color: var(--primary-red);
+    color: var(--white);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.submit-btn:hover {
+    background-color: var(--dark-red);
+}
+
+.submit-btn:disabled {
+    background-color: var(--light-red);
+    cursor: not-allowed;
+}
+
+.toggle-history-btn {
+    background-color: transparent;
+    color: var(--primary-red);
+    border: 2px solid var(--primary-red);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.toggle-history-btn:hover {
+    background-color: var(--primary-red);
+    color: var(--white);
+}
+
+.history-section {
+    background-color: var(--light-gray);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.history-header {
+    color: var(--primary-red);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.history-form {
+    margin-bottom: 1.5rem;
+}
+
+.fetch-btn {
+    background-color: var(--primary-red);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fetch-btn:hover {
+    background-color: var(--dark-red);
+}
+
+.fetch-btn:disabled {
+    background-color: var(--light-red);
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: var(--primary-red);
+    background-color: rgba(209, 0, 0, 0.1);
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.history-table-container {
+    overflow-x: auto;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.history-table th,
+.history-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--medium-gray);
+}
+
+.history-table th {
+    background-color: var(--primary-red);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.history-table tr:nth-child(even) {
+    background-color: rgba(209, 0, 0, 0.05);
+}
+
+.history-table tr:hover {
+    background-color: rgba(209, 0, 0, 0.1);
+}
+
+.no-history {
+    text-align: center;
+    color: var(--dark-gray);
+    padding: 1rem;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .transactions-header {
+        font-size: 2rem;
+    }
+    
+    .transaction-form-container {
+        padding: 1.5rem;
+    }
+}
